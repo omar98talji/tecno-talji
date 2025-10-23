@@ -18,6 +18,7 @@ header {
 
 header h1 {
     font-size: 32px;
+    color: #29b6a6;
 }
 
 header p {
@@ -162,4 +163,5 @@ footer {
     .contact-link .icon {
         font-size: 20px;
     }
+
 }
