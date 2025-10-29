@@ -17,8 +17,10 @@ header {
 }
 
 header h1 {
-    font-size: 32px;
+    font-size: 6vw;
     color: #29b6a6;
+    line-height: 1.2;
+    word-wrap: break-word;
 }
 
 header p {
@@ -123,7 +125,7 @@ footer {
 /* متجاوب */
 @media screen and (max-width: 768px) {
     header h1 {
-        font-size: 22px;
+        font-size: 7vw;
     }
 
     header p {
@@ -165,3 +167,17 @@ footer {
     }
 
 }
+p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
